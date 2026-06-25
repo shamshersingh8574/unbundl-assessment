@@ -1,0 +1,28 @@
+{
+  "brand": "whistle",
+  "tagline": "AND SMILE",
+  "about": "Whistle offers premium, doctor-directed clear dental aligner systems across partner Clove Dental Clinics nationwide.",
+  "sections": [
+    {
+      "title": "Aligners",
+      "links": [
+        { "label": "Treatment Process", "target": "#process" },
+        { "label": "Clean Aligners material", "target": "#differences" },
+        { "label": "Aligners starting cost", "target": "#pricing" }
+      ]
+    },
+    {
+      "title": "Help",
+      "links": [
+        { "label": "Book 3D scan", "target": "#booking" },
+        { "label": "Partner Clove clinics", "target": "#clinics" },
+        { "label": "FAQ answers", "target": "#faqs" }
+      ]
+    }
+  ],
+  "copyrightSuffix": "Whistle Aligners. All rights reserved. Partnered with House of Clove.",
+  "bottomLinks": [
+    { "label": "Privacy Policy", "target": "#privacy" },
+    { "label": "Terms & Conditions", "target": "#terms" }
+  ]
+}

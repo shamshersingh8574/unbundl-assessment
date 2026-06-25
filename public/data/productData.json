@@ -1,0 +1,18 @@
+{
+  "heading": "Dream smiles achieved secretly",
+  "description1": "Experience the superior quality of our Whistle Aligners crafted with 3-layer PU material. With 450+ clinics nationwide, enjoy comfortable treatment by expert orthodontists at House of Clove",
+  "description2": "The pricing is different for every case. Cases with higher complexity requiring more aligners and additional time and effort from our dentists.",
+  "card": {
+    "name": "Whistle Aligners",
+    "strikePrice": "₹84,000",
+    "startingPriceLabel": "starting at",
+    "price": "₹47,999",
+    "taxLabel": "inc. of all taxes",
+    "features": [
+      "Offer valid for a limited time",
+      "Easy financing options"
+    ],
+    "image": "/images/aligner_product.png",
+    "learnMoreText": "Learn more"
+  }
+}

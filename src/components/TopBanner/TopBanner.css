@@ -1,0 +1,45 @@
+.top-banner {
+  background: linear-gradient(90deg, #CFF0C4 0%, #C7E0F2 100%);
+  border-bottom: 1px solid rgba(46, 196, 182, 0.1);
+  padding: 8px 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.top-banner-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-banner-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2D3748;
+  letter-spacing: -0.01em;
+}
+
+.top-strike {
+  text-decoration: line-through;
+  color: #718096;
+  font-weight: 600;
+  margin: 0 4px;
+}
+
+.top-price-highlight {
+  color: #1A1A1A;
+  font-weight: 850;
+}
+
+
+@media (max-width: 768px) {
+  .top-banner {
+    padding: 8px 12px;
+  }
+  
+  .top-banner-text {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+}

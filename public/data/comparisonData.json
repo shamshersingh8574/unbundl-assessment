@@ -1,0 +1,40 @@
+{
+  "heading": "What sets Whistle apart?",
+  "headers": {
+    "features": "Features",
+    "whistleLogo": "/images/logo.png",
+    "others": "Other Brands"
+  },
+  "rows": [
+    {
+      "feature": "Easy to complex cases",
+      "whistle": "Yes, mild to complex",
+      "others": "No, only mild to moderate"
+    },
+    {
+      "feature": "Clear-cut Pricing",
+      "whistle": true,
+      "others": false
+    },
+    {
+      "feature": "Aligner Change",
+      "whistle": "Every 10 days",
+      "others": "Every 2 weeks"
+    },
+    {
+      "feature": "Clinical Partnership",
+      "whistle": true,
+      "others": false
+    },
+    {
+      "feature": "Movement Between Cities",
+      "whistle": true,
+      "others": false
+    },
+    {
+      "feature": "Complimentary Teeth Scaling",
+      "whistle": true,
+      "others": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "image_1": "/images/before_1.jpg",
+    "image_2": "/images/after_1.jpg",
+    "concern": "Gaps",
+    "duration": "8 months"
+  },
+  {
+    "image_1": "/images/before_2.jpg",
+    "image_2": "/images/after_2.jpg",
+    "concern": "Crooked Teeth",
+    "duration": "8 months"
+  },
+  {
+    "image_1": "/images/before_1.jpg",
+    "image_2": "/images/after_1.jpg",
+    "concern": "Open Bite",
+    "duration": "8 months"
+  },
+  {
+    "image_1": "/images/before_2.jpg",
+    "image_2": "/images/after_2.jpg",
+    "concern": "Protruding Teeth",
+    "duration": "8 months"
+  }
+]

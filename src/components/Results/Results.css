@@ -1,0 +1,127 @@
+.results-section {
+  padding: 60px 0;
+  background-color: var(--bg-white);
+  width: 100%;
+}
+
+.results-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.results-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.results-grid {
+  width: 100%;
+}
+
+.results-card {
+  background-color: #F0F9FF;
+  border: 1px solid #F0F9FF;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.results-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(15, 14, 23, 0.05);
+}
+
+.results-images-wrapper {
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  background-color: #FFFFFF;
+}
+
+.results-img-half {
+  width: 50%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.results-img-half:first-child {
+  border-right: 1px solid rgba(225, 237, 247, 0.5);
+}
+
+.results-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.label-before,
+.label-after {
+  width: 50%;
+  text-align: center;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #4A5568;
+}
+
+.results-divider {
+  height: 1px;
+  background-color: #E2EDF6;
+  width: 100%;
+  margin: 0;
+}
+
+.results-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+}
+
+.results-row-label {
+  font-size: 0.88rem;
+  color: #64748B;
+  font-weight: 400;
+}
+
+.results-row-value {
+  font-size: 0.88rem;
+  color: #0F0E17;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .results-section {
+    padding: 50px 0;
+  }
+  
+  .results-section h2 {
+    margin-bottom: 25px;
+  }
+}
+
+.results-loading-placeholder {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #64748B;
+  background-color: #F8FAFC;
+  border-radius: 12px;
+  animation: results-pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes results-pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}

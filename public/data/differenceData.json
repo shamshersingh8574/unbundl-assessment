@@ -1,0 +1,22 @@
+{
+  "heading": "The Whistle Difference",
+  "points": [
+    {
+      "icon": "/images/next-gen.svg",
+      "title": "Next-Gen",
+      "desc": "Crafted with top-notch 3D printing, laser tech, and Zendura FLX material."
+    },
+    {
+      "icon": "/images/Predictable-smile.svg",
+      "title": "Hassle-Free",
+      "desc": "Predictable, comfortable & lifestyle-friendly for an easy smile transformation."
+    },
+    {
+      "icon": "/images/Price.svg",
+      "title": "Transparent Pricing",
+      "desc": "Everything's included - from scans to aligners, doctor consults, and retainers - no hidden costs."
+    }
+  ],
+  "rightImage": "/images/teeth_3d_scan.png",
+  "rightImageAlt": "Whistle 3D planning technology scan"
+}

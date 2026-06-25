@@ -1,0 +1,25 @@
+{
+  "heading": "Get your perfect smile in four simple steps",
+  "steps": [
+    {
+      "num": "01",
+      "title": "Scan",
+      "desc": "Book a free home scan or visit a Clove clinic. Our expert takes a 3D scan of your teeth."
+    },
+    {
+      "num": "02",
+      "title": "Plan",
+      "desc": "Our orthodontists design a customized 3D plan showing the transition of your teeth."
+    },
+    {
+      "num": "03",
+      "title": "Fabricate",
+      "desc": "We manufacture your custom aligners using medical-grade material."
+    },
+    {
+      "num": "04",
+      "title": "Wear",
+      "desc": "Start wearing your aligners. Get virtual supervision and in-person checkups."
+    }
+  ]
+}

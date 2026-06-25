@@ -1,0 +1,92 @@
+.nav-bar-wrapper {
+  height: 55px;
+  width: 100%;
+}
+
+.nav-bar {
+  background-color: var(--bg-white);
+  border-bottom: 2px solid var(--border-color);
+  width: 100%;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  position: relative;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-bottom-color: var(--primary-light);
+}
+
+.nav-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  overflow-x: auto;
+  scrollbar-width: none; 
+}
+
+.nav-tabs::-webkit-scrollbar {
+  display: none; 
+}
+
+.nav-tab-btn {
+  background: none;
+  border: none;
+  padding: 16px 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  transition: var(--transition);
+}
+
+.nav-tab-btn::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: transparent;
+  transition: var(--transition);
+}
+
+.nav-tab-btn:hover {
+  color: var(--primary);
+}
+
+.active-tab {
+  color: var(--primary);
+}
+
+.active-tab::after {
+  background-color: var(--primary);
+}
+
+
+@media (max-width: 768px) {
+  .nav-bar-wrapper {
+    height: 43px;
+  }
+  
+  .nav-tabs {
+    gap: 15px;
+    padding: 2px 0;
+  }
+  
+  .nav-tab-btn {
+    font-size: 0.85rem;
+    padding: 12px 4px;
+  }
+}
