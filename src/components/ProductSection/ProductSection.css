@@ -287,3 +287,9 @@
     transform: scale(1);
   }
 }
+
+@media (max-width: 420px) {
+.product-section {
+    padding: 30px 0px 20px 0;
+}
+}
